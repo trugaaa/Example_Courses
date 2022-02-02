@@ -15,6 +15,7 @@
         <!--        Web-->
         <webdriver.manager.version>5.0.3</webdriver.manager.version>
         <selenium.version>4.1.1</selenium.version>
+        <apache.commons.version>3.12.0</apache.commons.version>
     </properties>
 
     <dependencies>
@@ -28,6 +29,12 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>${selenium.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${apache.commons.version}</version>
         </dependency>
     </dependencies>
 </project>
